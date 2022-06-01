@@ -1,6 +1,6 @@
 {
   "name": "@mydevsandbox-com/log-hello",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Simple package which only logs a 'hello' message to the console and as a return string",
   "main": "index.js",
   "scripts": {
