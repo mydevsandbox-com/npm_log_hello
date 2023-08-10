@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/mydevsandbox-com/npm_log_hello#readme",
   "devDependencies": {
-    "cspell": "^6.27.0",
+    "cspell": "^7.0.0",
     "eslint": "^8.35.0",
     "eslint-config-strongloop": "^2.1.0"
   }
