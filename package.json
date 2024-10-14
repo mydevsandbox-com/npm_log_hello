@@ -1,19 +1,20 @@
 {
   "name": "@mydevsandbox-com/log-hello",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Simple package which only logs a 'hello' message to the console and as a return string",
   "main": "index.js",
   "scripts": {
-    "test": "eslint --ignore-path .eslintignore . ; cspell *.js *.md ; npx node test.js"
+    "test": "eslint ; cspell *.js *.md ; mocha *.test.js"
   },
   "engines": {
     "npm": ">=8.0.0",
-    "node": ">=16.0.0"
+    "node": ">=20.0.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mydevsandbox-com/npm_log_hello.git"
   },
+  "type": "module",
   "author": "mydevsandbox-com",
   "license": "MIT",
   "bugs": {
@@ -21,8 +22,11 @@
   },
   "homepage": "https://github.com/mydevsandbox-com/npm_log_hello#readme",
   "devDependencies": {
-    "cspell": "^8.0.0",
-    "eslint": "^9.0.0",
-    "eslint-config-strongloop": "^2.1.0"
+    "@eslint/js": "^9.12.0",
+    "chai": "^5.1.1",
+    "cspell": "^8.15.2",
+    "eslint": "^9.12.0",
+    "eslint-config-strongloop": "^2.1.0",
+    "mocha": "^10.7.3"
   }
 }
