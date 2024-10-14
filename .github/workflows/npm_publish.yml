@@ -5,6 +5,7 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    environment: deploy-npmjs
     steps:
       - uses: actions/checkout@v4
       # Setup .npmrc file to publish to npm
