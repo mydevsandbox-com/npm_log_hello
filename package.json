@@ -23,7 +23,7 @@
   "homepage": "https://github.com/mydevsandbox-com/npm_log_hello#readme",
   "devDependencies": {
     "@eslint/js": "^9.12.0",
-    "chai": "^5.1.1",
+    "chai": "^6.0.1",
     "cspell": "^9.0.0",
     "eslint": "^9.12.0",
     "eslint-config-strongloop": "^2.1.0",
